@@ -12,5 +12,21 @@ html {
 
 body {
   height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 150px auto;
 }
 
+.sidebar {
+  background-color: lightskyblue;
+  grid-row: 1 / -1;
+}
+
+header {
+  background-color: whitesmoke;
+}
+
+main {
+  background-color: lightgray;
+}
