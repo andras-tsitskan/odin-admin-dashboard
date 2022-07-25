@@ -78,7 +78,7 @@ body {
 }
 
 .sidebar li {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.8rem;
 }
 
 .logo,
@@ -90,6 +90,7 @@ body {
   position: relative;
   left: 0;
   bottom: 0;
+  padding: 0.4rem 0;
 }
 
 .sidebar a:hover {
