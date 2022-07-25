@@ -18,10 +18,71 @@ body {
   grid-template-rows: 150px auto;
 }
 
+/*  Sidebar */
+
 .sidebar {
-  background-color: lightskyblue;
+  background-color: var(--sky-600);
   grid-row: 1 / -1;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.logo span {
+  font-size: 2rem;
+}
+
+.sidebar,
+.sidebar span,
+.sidebar a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar span {
+  padding: 0 1rem;
+  display: inline-block;
+  width: 75px;
+  text-align: center;
+}
+
+.nav-1 span,
+.nav-2 span {
+  position: relative;
+  top: 3px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.75rem;
+}
+
+.logo,
+.nav-1 {
+  margin-bottom: 2rem;
+}
+
+.sidebar a {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+  left: 1px;
+  bottom: 1px;
+  transition: all 0.1s ease-in-out;
+}
+
+/* Header */
 
 header {
   background-color: whitesmoke;
