@@ -99,7 +99,124 @@ body {
 /* Header */
 
 header {
-  background-color: whitesmoke;
+  display: grid;
+  grid-template-rows: 80px 100px;
+  grid-template-rows: min-content min-content;
+  padding: 0 2rem;
+}
+
+.header-top {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.header-search {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-search input {
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(211, 211, 211, 0.5);
+  padding: 0.3rem 0.8rem;
+  width: 100%;
+}
+
+.header-search input:hover {
+  background-color: rgb(211, 211, 211, 0.8);
+}
+
+.header-search input:focus {
+  background-color: gold;
+}
+
+.header-top-right {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  flex: 0;
+
+  font-weight: 700;
+}
+
+.avatar {
+  background-image: url(./assets/cat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.avatar-small {
+  height: 50px;
+  width: 50px;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.header-bottom-left {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  gap: 10px 1rem;
+}
+
+.avatar-large {
+  height: 80px;
+  width: 80px;
+  grid-row: 1 / -1;
+}
+
+.greeting,
+.username-large {
+  margin: 0;
+  font-weight: 700;
+}
+
+.greeting {
+  font-size: 0.8rem;
+  align-self: flex-end;
+}
+
+.username-large {
+  font-size: 1.2rem;
+  align-self: flex-start;
+}
+
+.header-bottom-right {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  flex: 0;
+}
+
+header button {
+  width: 100px;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.4rem 0;
+
+  background-color: rgb(211, 211, 211, 0.5);
+
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: gold;
 }
 
 /* Main */
