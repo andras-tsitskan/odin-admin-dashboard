@@ -16,6 +16,7 @@
 * {
   box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
+  color: var(--sky-50);
 }
 
 html {
