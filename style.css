@@ -91,3 +91,13 @@ header {
 main {
   background-color: lightgray;
 }
+
+/* Material symbols */
+
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 48;
+}
+
+.ms-filled {
+  font-variation-settings: "FILL" 1;
+}
