@@ -28,7 +28,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 150px auto;
+  grid-template-rows: min-content 1fr;
 }
 
 /*  Sidebar */
