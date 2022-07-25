@@ -16,7 +16,6 @@
 * {
   box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
-  color: var(--sky-50);
 }
 
 html {
@@ -35,8 +34,12 @@ body {
 /*  Sidebar */
 
 .sidebar {
-  background-color: var(--sky-600);
   grid-row: 1 / -1;
+  /* background-color: var(--sky-600); */
+}
+
+.sidebar * {
+  /* color: var(--sky-50); */
 }
 
 .logo {
@@ -222,7 +225,6 @@ header button:hover {
 /* Main */
 
 main {
-  background-color: lightgray;
 }
 
 /* Material symbols */
