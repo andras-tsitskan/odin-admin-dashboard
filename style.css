@@ -278,6 +278,10 @@ main h2 {
   font-size: 1.5rem;
 }
 
+.trending {
+  font-size: 0.8rem;
+}
+
 .trending-grid {
   display: grid;
   gap: var(--padd-marg-gap-small);
