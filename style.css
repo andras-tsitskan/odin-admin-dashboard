@@ -292,7 +292,6 @@ main h2 {
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: var(--padd-marg-gap-small);
-  /* padding: var(--padd-marg-gap-small); */
 }
 
 .trending-single > * {
@@ -327,9 +326,7 @@ main h2 {
 }
 
 .card {
-  padding: var(--padd-marg-gap-large);
-  /* height: 500px; */
-  /* height: 100%; */
+  padding: var(--padd-marg-gap-small);
 
   background-color: white;
   border-radius: 1rem;
