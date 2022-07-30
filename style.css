@@ -232,6 +232,10 @@ main {
   background-color: rgb(211, 211, 211, 0.5);
 }
 
+main h2 {
+  font-size: 1.2rem;
+}
+
 .projects {
   grid-row: 1 / -1;
 }
@@ -247,6 +251,20 @@ main {
   border-left: 0.5rem solid gold;
   display: grid;
   grid-template-rows: auto auto 1fr;
+
+.project-card h3,
+.announcement-single h3 {
+  margin: 0;
+
+  font-size: 1rem;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+}
+
+.announcements p {
+  font-size: 0.75rem;
 }
 
 .project-card-buttons {
