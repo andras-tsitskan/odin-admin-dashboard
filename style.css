@@ -2,6 +2,7 @@
 
 :root {
   --text-color-main: #27272a;
+  --box-shadow-main: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 * {
@@ -27,6 +28,8 @@ body {
 
 .sidebar {
   grid-row: 1 / -1;
+
+  border-right: 1px solid lightgray;
 }
 
 .sticky {
@@ -101,6 +104,9 @@ header {
   grid-template-rows: 80px 100px;
   grid-template-rows: min-content min-content;
   padding: 0 2rem;
+
+  border-bottom: 1px solid lightgray;
+  box-shadow: var(--box-shadow-main);
 }
 
 .header-top {
