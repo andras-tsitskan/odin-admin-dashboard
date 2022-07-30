@@ -123,6 +123,14 @@ header {
   gap: 1rem;
 }
 
+.search-btn {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .header-search input {
   border-radius: 1rem;
   border: none;
@@ -207,7 +215,7 @@ header {
   flex: 0;
 }
 
-header button {
+.header-bottom-right button {
   width: 100px;
   border: none;
   border-radius: 1rem;
@@ -219,7 +227,7 @@ header button {
   cursor: pointer;
 }
 
-header button:hover {
+.header-bottom-right button:hover {
   background-color: gold;
 }
 
