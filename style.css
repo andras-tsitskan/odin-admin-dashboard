@@ -293,7 +293,7 @@ main h2 {
   column-gap: var(--padd-marg-gap-small);
 }
 
-.trending-single > * {
+.trending-single * {
   margin: 0;
 }
 
