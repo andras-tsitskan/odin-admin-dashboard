@@ -157,19 +157,6 @@ header {
   font-weight: 700;
 }
 
-.avatar {
-  background-image: url(./assets/cat.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.avatar-small {
-  height: 50px;
-  width: 50px;
-}
-
 .header-bottom {
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -234,6 +221,35 @@ header {
 /* Main */
 
 main {
+/* Universal */
+
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar-small {
+  height: 50px;
+  width: 50px;
+}
+
+.card {
+  padding: var(--padd-marg-gap-large);
+  /* height: 500px; */
+  /* height: 100%; */
+
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow-main);
+}
+
+.rotate:hover {
+  transform: rotate(10deg);
+  transition: all 0.1s ease-in-out;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Material symbols */
