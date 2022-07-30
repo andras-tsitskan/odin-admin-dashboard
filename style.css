@@ -106,9 +106,9 @@ body {
 
 header {
   display: grid;
-  grid-template-rows: 80px 100px;
   grid-template-rows: min-content min-content;
-  padding: 0 2rem;
+  padding: var(--padd-marg-gap-small);
+  gap: var(--padd-marg-gap-small);
 
   border-bottom: 1px solid lightgray;
   box-shadow: var(--box-shadow-main);
@@ -118,7 +118,6 @@ header {
   display: grid;
   grid-template-columns: 3fr 2fr;
   align-items: center;
-  padding: 1rem 0;
 }
 
 .header-search {
@@ -154,7 +153,7 @@ header {
 
 .header-top-right {
   display: flex;
-  gap: 1.2rem;
+  gap: var(--padd-marg-gap-small);
   justify-content: center;
   align-items: center;
   flex: 0;
@@ -166,7 +165,6 @@ header {
   display: grid;
   grid-template-columns: 3fr 2fr;
   align-items: center;
-  padding: 1rem 0;
 }
 
 .header-bottom-left {
