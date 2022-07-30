@@ -40,6 +40,9 @@ body {
 
 .sidebar * {
   /* color: var(--sky-50); */
+.sticky {
+  position: sticky;
+  top: 1rem;
 }
 
 .logo {
