@@ -31,6 +31,7 @@ body {
 
 .sidebar {
   grid-row: 1 / -1;
+  padding: var(--padd-marg-gap-small) var(--padd-marg-gap-large);
 
   border-right: 1px solid lightgray;
 }
@@ -43,11 +44,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .logo span {
   font-size: 2rem;
+  position: relative;
+  left: -0.35rem;
 }
 
 .sidebar,
@@ -58,10 +60,10 @@ body {
 }
 
 .sidebar span {
-  padding: 0 1rem;
-  display: inline-block;
-  width: 75px;
-  text-align: center;
+  width: 50px;
+  padding-right: 1rem;
+
+  text-align: left;
 }
 
 .nav-1 span,
@@ -77,6 +79,7 @@ body {
 
 .sidebar li {
   margin-bottom: 0.8rem;
+  /* margin-right: 2rem; */
 }
 
 .logo,
