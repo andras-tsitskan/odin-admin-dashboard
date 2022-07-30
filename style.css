@@ -5,6 +5,7 @@
   --box-shadow-main: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   --padd-marg-gap-large: 2rem;
   --padd-marg-gap-small: 1rem;
+  --outline-debug: 1px solid green;
 }
 
 * {
