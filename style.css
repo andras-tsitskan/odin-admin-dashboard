@@ -96,7 +96,6 @@ body {
 .sidebar a:hover {
   text-decoration: underline;
   left: 1px;
-  bottom: 1px;
   transition: all 0.1s ease-in-out;
 }
 
