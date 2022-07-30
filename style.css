@@ -31,7 +31,8 @@ body {
 
 .sidebar {
   grid-row: 1 / -1;
-  padding: var(--padd-marg-gap-small) var(--padd-marg-gap-large);
+  padding: var(--padd-marg-gap-small);
+  padding-right: var(--padd-marg-gap-large);
 
   border-right: 1px solid lightgray;
 }
@@ -62,8 +63,6 @@ body {
 .sidebar span {
   width: 50px;
   padding-right: 1rem;
-
-  text-align: left;
 }
 
 .nav-1 span,
@@ -79,7 +78,6 @@ body {
 
 .sidebar li {
   margin-bottom: 0.8rem;
-  /* margin-right: 2rem; */
 }
 
 .logo,
