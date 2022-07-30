@@ -152,7 +152,7 @@ header {
 .header-top-right {
   display: flex;
   gap: var(--padd-marg-gap-small);
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex: 0;
 
@@ -198,7 +198,7 @@ header {
 .header-bottom-right {
   display: flex;
   gap: 1.2rem;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex: 0;
 }
