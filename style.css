@@ -221,6 +221,72 @@ header {
 /* Main */
 
 main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: var(--padd-marg-gap-small);
+  padding: var(--padd-marg-gap-small);
+
+  background-color: rgb(211, 211, 211, 0.5);
+}
+
+.projects {
+  grid-row: 1 / -1;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 400px;
+  gap: var(--padd-marg-gap-small);
+}
+
+.project-card {
+  border-left: 0.5rem solid gold;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+.project-card-buttons {
+  place-self: end;
+}
+
+.project-card-buttons span {
+  font-size: 1.5rem;
+}
+
+.trending-grid {
+  display: grid;
+  gap: var(--padd-marg-gap-small);
+}
+
+.trending-single {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: var(--padd-marg-gap-small);
+  /* padding: var(--padd-marg-gap-small); */
+}
+
+.trending-single > * {
+  margin: 0;
+}
+
+.trending-single img {
+  grid-row: 1 / -1;
+  align-self: center;
+}
+
+.trending-user {
+  align-self: flex-end;
+}
+
+.trending-project {
+  align-self: flex-start;
+
+  font-weight: 100;
+}
+
 /* Universal */
 
 .avatar {
